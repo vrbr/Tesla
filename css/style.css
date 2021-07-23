@@ -46,6 +46,19 @@ body {
 /*header*/
 .header__menu {
     display: none;
+    text-align: center;
+}
+.header__menu li a {
+    color: #000;
+
+}
+.header__menu li {
+    padding: 12px;
+    border-bottom: 1px solid #000;
+}
+.header__menu li:hover {
+    background-color: #E51937;
+    transition: all .2s;
 }
 .header__nav {
     display: flex;
@@ -53,10 +66,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.header__burger {
+.header__burger,
+.header__close {
     border: 0;
     margin-right: 20px;
     background-color: transparent;
+}
+.header__close {
+    display: none;
 }
 @media screen and (min-width: 768px) {
     .header__nav {
@@ -94,6 +111,7 @@ body {
     }
     .header__menu li {
         padding: 10px 20px;
+        border: none;
     }
     .header__menu li a {
         font-weight: 600;
