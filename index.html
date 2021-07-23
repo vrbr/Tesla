@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tesla</title>
+</head>
+<body>
+    <header class="header">
+        <!-- <div class="wrapper"> -->
+            <nav class="header__nav">
+                <a class="header__logo" href="#">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/logo-tab.svg">
+                        <img src="img/logo.svg" width="138" height="42" alt="Логотип">
+                    </picture>
+                </a>
+                <ul class="header__menu header__menu-left">
+                    <li><a class="current" href="">Model S</a></li>
+                    <li><a href="#">Model X</a></li>
+                    <li><a href="#">Model 3</a></li>
+                    <li><a href="#">Roadstep</a></li>
+                    <li><a href="#">Energy</a></li>
+                </ul>
+                <ul class="header__menu header__menu-right">
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Войти</a></li>
+                </ul>
+                <button class="header__burger">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/burger-tab.svg">
+                        <img src="img/burger.svg" width="24" height="16" alt="Открыть/закрыть меню">
+                    </picture>
+                </button>
+            </nav>
+        <!-- </div> -->
+    </header>
+    <main class="main">
+        <section class="promo">
+            <h1 class="promo__title">Model S</h1>
+            <p class="promo__text">Добро пожаловать в будущее!</p>
+            <div class="promo__preview">
+                <picture>
+                    <source media="(min-width: 1440px)" srcset="img/tesla-red-desk@1x.png, img/tesla-red-desk@2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="img/tesla-red-tab@1x.png, img/tesla-red-tab@2x.png 2x">
+                    <img src="img/tesla-red-mob@1x.png" srcset="tesla-red-mob@2x.png 2x" alt="Model S">
+                </picture>
+            </div>
+            <div class="promo__box">
+                <div class="promo__description wrapper">
+                    <div class="promo__speed">
+                        <p class="promo__speed-num">2,7 <span>сек</span></p>
+                        <p class="promo__speed-data">0-100 км/час</p>
+                    </div>
+                    <div class="promo__road">
+                        <p class="promo__speed-num">632 <span>км</span></p>
+                        <p class="promo__speed-data">запас хода</p>
+                    </div>
+                </div>
+                <div class="promo__info">
+                    <p class="promo__info-test">Тест драйв</p>
+                    <button class="button promo__info-button" type="button" value="Заказать">Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="specification">
+            <div class="specification__wrapper">
+                <div class="specification__photo">
+                    <h2 class="specification__title">Model S</h2>
+                    <picture>
+                        <source media="(min-width: 1440px)" srcset="img/panel-desk@1x.png, img/panel-desk@2x.png 2x">
+                        <source media="(min-width: 768px)" srcset="img/panel-tab@1x.png, img/panel-tab@2x.png 2x">
+                        <img src="img/panel-mob@1x.png" srcset="img/panel-mob@2x.png 2x" alt="Панель управления">
+                    </picture>
+                </div>
+                <div class="specification__info">
+                    <div class="wrapper specification__content specification__content-first">
+                        <h3 class="specification__content-title">Будущее вождения</h3>
+                        <p class="specification__content-text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+                    </div>
+                    <div class="specification__content specification__content-second">
+                        <div class="specification__content-box">
+                            <p class="specification__content-theme">17 <span>дюймов</span></p>
+                            <p class="specification__content-explanation">Большой дисплей</p>
+                        </div>
+                        <div class="specification__content-box">
+                            <p class="specification__content-theme specification__content-title">Беспроводное<br>обновление ПО</p>
+                            <p class="specification__content-explanation">Повышенная функциональность</p>
+                        </div>
+                        <div class="specification__content-box">
+                            <p class="specification__content-theme">894 <span>литра</span></p>
+                            <p class="specification__content-explanation">Объем грузового пространства</p>
+                        </div>
+                    </div>
+                    <div class="specification__content specification__content-third">
+                        <a href="#">Узнать больше</a>
+                        <button class="button specification__button" type="button" value="Заказать">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="safety">
+            <div class="safety__wrapper">
+                <div class="safety__photo">
+                    <h3 class="safety__photo-title">Model S</h3>
+                    <picture>
+                        <source media="(min-width: 1440px)" srcset="img/structure-desk@1x.png, img/structure-desk@2x.png 2x">
+                        <source media="(min-width: 768px)" srcset="img/structure-tab@1x.png, img/structure-tab@2x.png 2x">
+                        <img src="img/structure-mob@1x.png" srcset="img/structure-mob@2x.png 2x" alt="Строение автомобиля">
+                    </picture>
+                </div>
+                <div class="safety__info">
+                    <div class="wrapper safety__content safety__content-first">
+                        <h3 class="safety__content-title">Самый безопасный автомобиль в мире</h3>
+                        <p class="safety__content-text">
+                            Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
+                        </p>
+                    </div>
+                    <div class="safety__content safety__content-second">
+                        <h3 class="safety__content-title">Оценка защиты: </h3>
+                        <ul class="safety__list">
+                            <li class="safety__item">Спереди</li>
+                            <li class="safety__item">Сбоку</li>
+                            <li class="safety__item">Сбоку<span>(стойка)</span></li>
+                            <li class="safety__item">Водитель</li>
+                            <li class="safety__item">Пассажир</li>
+                        </ul>
+                    </div>
+                    <div class="safety__content safety__content-third">
+                        <p class="safety__content-text">5 звезд<span class="safety__content-span">безопасности</span></p>
+                    </div>
+                    <div class="safety__content safety__content-fourth">
+                        <a href="#">Узнать больше</a>
+                        <button class="button safety__button" type="button" value="Заказать">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
